@@ -1,7 +1,7 @@
 ﻿########################################################################
 #Author : Saurav Dhyani
 #Date   : 12-07-2023
-#Purpose: Execute Step 1 of BC14 to BC21 Upgrade
+#Purpose: Execute Step 1 of BC14 to BC22 Upgrade
 #Steps  : 
 #1. Replace $ServerInstance Parameter Below with your BC14 Server Instance Name (Service Name).
 ########################################################################

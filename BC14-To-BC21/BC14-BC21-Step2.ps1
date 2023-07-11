@@ -1,4 +1,10 @@
-﻿#Import Module
+﻿########################################################################
+#Author : Saurav Dhyani
+#Date   : 12-07-2023
+#Purpose: Execute Step 2 of BC14 to BC21 Upgrade
+########################################################################
+
+#Import Module
 Import-Module 'C:\Program Files\Microsoft Dynamics 365 Business Central\210\Service\NavAdminTool.ps1'
 
 #Convert the application database to version 21
