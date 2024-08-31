@@ -1,0 +1,8 @@
+{
+  "id": "33b8a89f-f144-4122-aae3-8b7a0b2e885d",
+  "name": "PTE Extension",
+  "publisher": "Saurav Dhyani",
+  "version": "1.0.0.0",
+  "runtime": "13.0",
+  "target": "OnPrem"
+}

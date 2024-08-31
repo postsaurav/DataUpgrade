@@ -1,0 +1,37 @@
+OBJECT Modification "Location List"(Page 15)
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08/24/24;
+    Time=12:41:36 PM;
+    Modified=Yes;
+    Version List=NAVW114.00,UPGDemo;
+  }
+  PROPERTIES
+  {
+    Target="Location List"(Page 15);
+    TargetPageType=List;
+  }
+  CHANGES
+  {
+    { Insertion         ;InsertAfter=AddAfter:Control 4;
+                         ChangedElements=ControlCollection
+                         {
+                           { 1240060000;2;Field  ;
+                                       SourceExpr=Shop }
+
+                         }
+                          }
+    { PropertyModification;
+                         Property=Version List;
+                         OriginalValue=NAVW114.00;
+                         ModifiedValue=NAVW114.00,UPGDemo }
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+
