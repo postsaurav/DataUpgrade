@@ -1,0 +1,34 @@
+OBJECT Modification Location(Table 14)
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08/24/24;
+    Time=12:36:52 PM;
+    Modified=Yes;
+    Version List=NAVW114.00,UPGDemo;
+  }
+  PROPERTIES
+  {
+    Target=Location(Table 14);
+  }
+  CHANGES
+  {
+    { Insertion         ;InsertAfter="Use ADCS"(Field 7700);
+                         ChangedElements=FieldCollection
+                         {
+                           { 50000;  ;Shop                ;Code20        ;DataClassification=ToBeClassified }
+                         }
+                          }
+    { PropertyModification;
+                         Property=Version List;
+                         OriginalValue=NAVW114.00;
+                         ModifiedValue=NAVW114.00,UPGDemo }
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

@@ -1,0 +1,38 @@
+table 1519 "Notification Context"
+{
+    Caption = 'Notification Context';
+
+    fields
+    {
+        field(1; "Notification ID"; Guid)
+        {
+            Caption = 'Notification ID';
+        }
+        field(2; "Record ID"; RecordID)
+        {
+            Caption = 'Record ID';
+            DataClassification = SystemMetadata;
+        }
+        field(3; "Additional Context ID"; Guid)
+        {
+            Caption = 'Additional Context ID';
+        }
+        field(4; Created; DateTime)
+        {
+            Caption = 'Created';
+        }
+    }
+
+    keys
+    {
+        key(Key1; "Notification ID")
+        {
+            Clustered = true;
+        }
+    }
+
+    fieldgroups
+    {
+    }
+}
+

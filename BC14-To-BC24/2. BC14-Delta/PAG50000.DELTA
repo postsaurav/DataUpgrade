@@ -1,0 +1,170 @@
+OBJECT Page 50000 SDH Demo Entry
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08/24/24;
+    Time=12:42:37 PM;
+    Modified=Yes;
+    Version List=UPGDemo;
+  }
+  PROPERTIES
+  {
+    SourceTable=Table50000;
+    PageType=List;
+  }
+  CONTROLS
+  {
+    { 1240060000;0;Container;
+                ContainerType=ContentArea }
+
+    { 1240060001;1;Group  ;
+                Name=Group;
+                GroupType=Repeater }
+
+    { 1240060002;2;Field  ;
+                SourceExpr="Entry No." }
+
+    { 1240060003;2;Field  ;
+                SourceExpr="G/L Account No." }
+
+    { 1240060004;2;Field  ;
+                SourceExpr="Posting Date" }
+
+    { 1240060005;2;Field  ;
+                SourceExpr="Document Type" }
+
+    { 1240060006;2;Field  ;
+                SourceExpr="Document No." }
+
+    { 1240060007;2;Field  ;
+                SourceExpr=Description }
+
+    { 1240060008;2;Field  ;
+                SourceExpr="Bal. Account No." }
+
+    { 1240060009;2;Field  ;
+                SourceExpr=Amount }
+
+    { 1240060010;2;Field  ;
+                SourceExpr="Global Dimension 1 Code" }
+
+    { 1240060011;2;Field  ;
+                SourceExpr="Global Dimension 2 Code" }
+
+    { 1240060012;2;Field  ;
+                SourceExpr="User ID" }
+
+    { 1240060013;2;Field  ;
+                SourceExpr="Source Code" }
+
+    { 1240060014;2;Field  ;
+                SourceExpr="System-Created Entry" }
+
+    { 1240060015;2;Field  ;
+                SourceExpr="Prior-Year Entry" }
+
+    { 1240060016;2;Field  ;
+                SourceExpr="Job No." }
+
+    { 1240060017;2;Field  ;
+                SourceExpr=Quantity }
+
+    { 1240060018;2;Field  ;
+                SourceExpr="VAT Amount" }
+
+    { 1240060019;2;Field  ;
+                SourceExpr="Business Unit Code" }
+
+    { 1240060020;2;Field  ;
+                SourceExpr="Journal Batch Name" }
+
+    { 1240060021;2;Field  ;
+                SourceExpr="Reason Code" }
+
+    { 1240060022;2;Field  ;
+                SourceExpr="Gen. Posting Type" }
+
+    { 1240060023;2;Field  ;
+                SourceExpr="Gen. Bus. Posting Group" }
+
+    { 1240060024;2;Field  ;
+                SourceExpr="Gen. Prod. Posting Group" }
+
+    { 1240060025;2;Field  ;
+                SourceExpr="Bal. Account Type" }
+
+    { 1240060026;2;Field  ;
+                SourceExpr="Transaction No." }
+
+    { 1240060027;2;Field  ;
+                SourceExpr="Debit Amount" }
+
+    { 1240060028;2;Field  ;
+                SourceExpr="Credit Amount" }
+
+    { 1240060029;2;Field  ;
+                SourceExpr="Document Date" }
+
+    { 1240060030;2;Field  ;
+                SourceExpr="External Document No." }
+
+    { 1240060031;2;Field  ;
+                SourceExpr="Source Type" }
+
+    { 1240060032;2;Field  ;
+                SourceExpr="Source No." }
+
+    { 1240060033;2;Field  ;
+                SourceExpr="No. Series" }
+
+    { 1240060034;2;Field  ;
+                SourceExpr="Tax Area Code" }
+
+    { 1240060035;2;Field  ;
+                SourceExpr="Tax Liable" }
+
+    { 1240060036;2;Field  ;
+                SourceExpr="Tax Group Code" }
+
+    { 1240060037;2;Field  ;
+                SourceExpr="Use Tax" }
+
+    { 1240060038;2;Field  ;
+                SourceExpr="VAT Bus. Posting Group" }
+
+    { 1240060039;2;Field  ;
+                SourceExpr="VAT Prod. Posting Group" }
+
+    { 1240060040;2;Field  ;
+                SourceExpr="Additional-Currency Amount" }
+
+    { 1240060041;2;Field  ;
+                SourceExpr="Add.-Currency Debit Amount" }
+
+    { 1240060042;2;Field  ;
+                SourceExpr="Add.-Currency Credit Amount" }
+
+    { 1240060043;2;Field  ;
+                SourceExpr="Close Income Statement Dim. ID" }
+
+    { 1240060044;2;Field  ;
+                SourceExpr="IC Partner Code" }
+
+    { 1240060045;2;Field  ;
+                SourceExpr=Reversed }
+
+    { 1240060046;2;Field  ;
+                SourceExpr="Reversed by Entry No." }
+
+    { 1240060047;2;Field  ;
+                SourceExpr="Reversed Entry No." }
+
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

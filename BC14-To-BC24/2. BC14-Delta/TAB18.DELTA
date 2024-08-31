@@ -1,0 +1,34 @@
+OBJECT Modification Customer(Table 18)
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08/24/24;
+    Time=12:37:32 PM;
+    Modified=Yes;
+    Version List=NAVW114.12,NAVGB14.12,UPGDemo;
+  }
+  PROPERTIES
+  {
+    Target=Customer(Table 18);
+  }
+  CHANGES
+  {
+    { Insertion         ;InsertAfter="Type of Supply Code"(Field 10500);
+                         ChangedElements=FieldCollection
+                         {
+                           { 50000;  ;Shop                ;Code20        ;DataClassification=ToBeClassified }
+                         }
+                          }
+    { PropertyModification;
+                         Property=Version List;
+                         OriginalValue=NAVW114.12,NAVGB14.12;
+                         ModifiedValue=NAVW114.12,NAVGB14.12,UPGDemo }
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

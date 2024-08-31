@@ -1,0 +1,8 @@
+{
+"id": "f3552374-a1f2-4356-848e-196002525837",
+  "name": "Business Foundation",
+  "publisher": "Microsoft",
+  "version": "14.0.0.0",
+  "runtime": "13.0",
+  "target": "OnPrem"
+}

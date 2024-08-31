@@ -1,0 +1,8 @@
+{
+"id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+  "name": "Base Application",
+  "publisher": "Microsoft",
+  "version": "14.0.0.0",
+  "runtime": "13.0",
+  "target": "OnPrem"
+}

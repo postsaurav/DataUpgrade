@@ -1,0 +1,27 @@
+{
+  "id": "d931bf32-b75d-4cbb-bdc5-4d807f40921d",
+  "name": "bc14baseapptablesonly",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "idRanges": [],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "13.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "target": "OnPrem"
+}

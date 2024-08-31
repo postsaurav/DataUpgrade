@@ -1,0 +1,37 @@
+OBJECT Modification "Customer List"(Page 22)
+{
+  OBJECT-PROPERTIES
+  {
+    Date=08/24/24;
+    Time=12:42:03 PM;
+    Modified=Yes;
+    Version List=NAVW114.11,UPGDemo;
+  }
+  PROPERTIES
+  {
+    Target="Customer List"(Page 22);
+    TargetPageType=List;
+  }
+  CHANGES
+  {
+    { Insertion         ;InsertAfter=AddAfter:Control 4;
+                         ChangedElements=ControlCollection
+                         {
+                           { 1240060001;2;Field  ;
+                                       SourceExpr=Shop }
+
+                         }
+                          }
+    { PropertyModification;
+                         Property=Version List;
+                         OriginalValue=NAVW114.11;
+                         ModifiedValue=NAVW114.11,UPGDemo }
+  }
+  CODE
+  {
+
+    BEGIN
+    END.
+  }
+}
+

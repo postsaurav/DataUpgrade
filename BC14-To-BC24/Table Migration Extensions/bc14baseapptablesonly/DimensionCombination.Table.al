@@ -1,0 +1,40 @@
+table 350 "Dimension Combination"
+{
+    Caption = 'Dimension Combination';
+
+    fields
+    {
+        field(1; "Dimension 1 Code"; Code[20])
+        {
+            Caption = 'Dimension 1 Code';
+            NotBlank = true;
+            TableRelation = Dimension.Code;
+        }
+        field(2; "Dimension 2 Code"; Code[20])
+        {
+            Caption = 'Dimension 2 Code';
+            NotBlank = true;
+            TableRelation = Dimension.Code;
+        }
+        field(3; "Combination Restriction"; Option)
+        {
+            Caption = 'Combination Restriction';
+            NotBlank = true;
+            OptionCaption = 'Limited,Blocked';
+            OptionMembers = Limited,Blocked;
+        }
+    }
+
+    keys
+    {
+        key(Key1; "Dimension 1 Code", "Dimension 2 Code")
+        {
+            Clustered = true;
+        }
+    }
+
+    fieldgroups
+    {
+    }
+}
+
