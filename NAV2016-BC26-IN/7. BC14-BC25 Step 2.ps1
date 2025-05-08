@@ -114,7 +114,7 @@ Set-NAVAddIn -ServerInstance $NewBcServerInstance -AddinName 'Microsoft.Dynamics
 #Change application version
 Set-NAVApplication -ServerInstance BC252 -ApplicationVersion 25.6.32556.0 -Force
 Sync-NAVTenant -ServerInstance BC252 -Mode Sync -Tenant default
-Start-NAVDataUpgrade -ServerInstance BC252 -FunctionExecutionMode Serial -Tenant default
+Start-NAVDataUpgrade -ServerInstance BC252 -FunctionExecutionMode Serial -Tenant default -SkipUserSessionCheck
 
 #Update Help and Support
 Set-NAVServerConfiguration -ServerInstance BC252 -KeyName SolutionVersionExtension -KeyValue "437dbf0e-84ff-417a-965d-ed2bb9650972" -ApplyTo All
