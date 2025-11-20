@@ -1,6 +1,9 @@
 # DataUpgrade
 This Repo will contain Data Upgrade Scripts and Links for the video.
 
+### Business Central Upgrade: Step-by-Step Data Upgrade from BC 26 to BC 27 (2025 Wave 1 → Wave 2)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Wj_H3z4Z0d8/0.jpg)](https://www.youtube.com/watch?v=Wj_H3z4Z0d8)
+
 ### Data Upgrade NAV 2016 ➡️ BC 26 IN | India Localization | Ultimate Guide (Part 5)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/Rng_DsoP5dM/0.jpg)](https://www.youtube.com/watch?v=Rng_DsoP5dM)
 
