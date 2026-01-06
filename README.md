@@ -1,6 +1,12 @@
 # DataUpgrade
 This Repo will contain Data Upgrade Scripts and Links for the video.
 
+### How to Replicate Record Links from Business Central On-Prem to Cloud (2025 Wave 2)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/JR8trizPKdM/0.jpg)](https://www.youtube.com/watch?v=JR8trizPKdM)
+
+### How to Replicate Data from BC 2024 Wave 2 On-Prem to Business Central 27 Cloud (Step-by-Step)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dSAORMJXsEU/0.jpg)](https://www.youtube.com/watch?v=dSAORMJXsEU)
+
 ### Business Central Data Upgrade: On-Prem 25 ➜ 27 | Complete Step-by-Step Guide
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/n_HUSaIVdIk/0.jpg)](https://www.youtube.com/watch?v=n_HUSaIVdIk)
 
